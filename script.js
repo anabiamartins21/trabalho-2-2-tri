@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Ao concluir a escola, você descobre uma tecnologia inovadora: um chat capaz de responder qualquer dúvida e gerar imagens e áudios extremamente realistas. Qual seria sua primeira reação ou pensamento diante disso?",
         alternativas: [
             {
                 texto: "Isso é assustador!",
@@ -19,7 +19,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Após conhecer uma nova tecnologia chamada Inteligência Artificial, sua professora de tecnologia propõe uma sequência de aulas sobre o tema. Ao final de uma dessas aulas, ela solicita um trabalho sobre o uso da IA em sala de aula. Qual seria sua atitude diante dessa tarefa?",
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
@@ -32,7 +32,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Depois de entregar o trabalho escrito, a professora promoveu um debate com a turma para discutir como a pesquisa foi feita e como a Inteligência Artificial pode influenciar o futuro do trabalho. Qual é o seu posicionamento nesse debate?",
         alternativas: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
@@ -58,10 +58,10 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Seu grupo tem um trabalho de biologia para entregar na próxima semana, mas está atrasado. Um dos colegas decide usar a IA para fazer a atividade, porém o conteúdo ficou idêntico ao gerado pelo chat. Diante disso, qual é a sua atitude? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "Utilizar comandos no chat também é uma forma de participação no trabalho, por isso, usar o texto completo gerado pela IA pode ser válido, desde que haja envolvimento e compreensão do conteúdo.",
                 afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
             },
             {

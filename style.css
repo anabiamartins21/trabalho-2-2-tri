@@ -1,14 +1,14 @@
 :root{
-    --cor-fundo: #050113 ;
-    --cor-principal: #150b20 ;
-    --cor-secundaria: #292133; 
-    --cor-destaque: #512bfd;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #e941ae ;
+    --cor-principal: #281124 ;
+    --cor-secundaria: #931179; 
+    --cor-destaque: #931179;
+    --cor-texto: #f3f8f9;
 
 }
 
 body {
-    background: linear-gradient(-45deg, #05010e, #110b20, #742bfd, #272133);
+    background: linear-gradient(-45deg, #dd92c4, #f50589, #742bfd, #4b1141);
     background-size: 400% 400%;
     animation: gradientBG 12s ease infinite;
     color: var(--cor-texto);
